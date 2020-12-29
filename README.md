@@ -14,7 +14,7 @@
 
 ## Launch:
 * To generate a new maze use the ```MazeCreator``` class and launch the ```generate_maze``` method.
-* To load a previously generated maze use the ```MazeLoader``` class and launch the ```load_grid_from_csv``` or the ```load_data_from_pickle_file``` method.
+* To load data of a previously generated maze use the ```MazeLoader``` class and launch the ```load_grid_from_csv``` or the ```load_data_from_pickle_file``` method.
 
 ## Technology:   
 * ```Python``` 3.8  
