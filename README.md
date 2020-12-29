@@ -22,6 +22,9 @@
 * ```pandas``` 1.1.5
 * ```matplotlib``` 3.3.3
 
+## Sources:
+* A* algorithm explanation video: https://www.youtube.com/watch?v=-L-WgKMFuhE
+
 ## Screenshots:
 yellow square - path  
 green square - obstacle / wall  
