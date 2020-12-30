@@ -28,9 +28,12 @@
 * ```filename``` - (str) full name of a file which contains data about a generated maze. Currently the formats ```.csv``` and ```.pickle``` are supported. ```csv``` save files stores only the data about a grid. ```pickle``` save files stores all data.
 * ```display_maze``` - (bool) display the maze after loading data. Default = True.
 
-## Expected time to generate:
+## Expected time to generate (based on 10 attempts):
+* 40 x 40 - 17 seconds
 * 50 x 50 - 41 seconds
 * 60 x 60 - 2 minutes 29 seconds
+* 70 x 70 - 5 minutes 13 seconds
+* 80 x 80 - 
 
 ## Launch:
 * To generate a new maze use the ```MazeCreator``` class and launch the ```generate_maze``` method.
