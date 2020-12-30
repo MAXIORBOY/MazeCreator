@@ -38,8 +38,8 @@
 * A* algorithm explanation video: https://www.youtube.com/watch?v=-L-WgKMFuhE
 
 ## Screenshots:
-yellow square - path  
-green square - obstacle / wall  
+a yellow square - path  
+a green square - obstacle / wall  
 
 * 100 x 100 example maze:
 ![100x100](https://user-images.githubusercontent.com/71539614/103317850-c5a6ee00-4a2c-11eb-9431-c2f1810be885.png)
