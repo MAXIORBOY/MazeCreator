@@ -2,7 +2,7 @@
 
 ## Menu:
 * [Rules](#rules)
-* [Algorithm algorithm](#algorithm)
+* [Algorithm](#algorithm)
 * [Implementation](#implementation)
 * [Expected time to generate](#expected-time-to-generate)
 * [Launch](#launch)
