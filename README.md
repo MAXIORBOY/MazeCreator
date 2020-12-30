@@ -8,14 +8,14 @@
 
 ## Algorithm:
 1. Create an empty grid with borders. Empty grid means without obstacles (except the borders), path-only. Size of the grid is provided by the user. ```CreateGrid``` is responsible for this.  
-2. Generate an entry and exit point on borders of the grid. Class ```EntryExitGenerator``` is responsible for this. 
-3. Create a solution path, a path which connects the entry and exit point. Class ```SolutionPathCreator``` is responsible for this.
-4. Add internal walls into the grid. Class ```InternalWallsCreator``` is responsible for this.
-5. Connect disjointed paths. Class ```PathConnector``` is responsible for this.
-6. Make sure that the solution path is the optimal path from start to finish. Class ```SolutionPathOptimalMaker``` is responsible for this.
-7. Remove isolated paths. Class ```IsolatedPathsRemover``` is responsible for this. 
-8*. Display generated maze. Class ```GridDisplay``` is responsible for this.
-9*. Save all data of the generated maze. Class ```SaveData``` is responsible for this.
+2. Generate an entry and exit point on borders of the grid. Class ```EntryExitGenerator``` is responsible for this.   
+3. Create a solution path, a path which connects the entry and exit point. Class ```SolutionPathCreator``` is responsible for this.  
+4. Add internal walls into the grid. Class ```InternalWallsCreator``` is responsible for this.  
+5. Connect disjointed paths. Class ```PathConnector``` is responsible for this.  
+6. Make sure that the solution path is the optimal path from start to finish. Class ```SolutionPathOptimalMaker``` is responsible for this.  
+7. Remove isolated paths. Class ```IsolatedPathsRemover``` is responsible for this.   
+8*. Display generated maze. Class ```GridDisplay``` is responsible for this.  
+9*. Save all data of the generated maze. Class ```SaveData``` is responsible for this.  
 
 ## Implementation:
 ```MazeGenerator.__init__(self, rows, columns, display_maze=True, save_data=True)```
