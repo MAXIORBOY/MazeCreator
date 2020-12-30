@@ -7,8 +7,8 @@
 4. You cannot move diagonally.
 
 ## Algorithm:
-1. Create an empty grid. Size of the grid is provided by the user. ```CreateGrid``` is responsible for this.  
-2. Generate an entry and exit point on a border of the grid. Class ```EntryExitGenerator``` is responsible for this. 
+1. Create an empty grid with borders. Empty grid means without obstacles (except the borders), path-only. Size of the grid is provided by the user. ```CreateGrid``` is responsible for this.  
+2. Generate an entry and exit point on borders of the grid. Class ```EntryExitGenerator``` is responsible for this. 
 3. Create a solution path, a path which connects the entry and exit point. Class ```SolutionPathCreator``` is responsible for this.
 4. Add internal walls into the grid. Class ```InternalWallsCreator``` is responsible for this.
 5. Connect disjointed paths. Class ```PathConnector``` is responsible for this.
