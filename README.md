@@ -29,8 +29,8 @@
 
 ## Implementation:
 ```MazeGenerator.__init__(self, rows, columns, display_maze=True, save_data=True)```
-* ```rows``` - (int) a desired number of rows of a maze. Values below 20 are not recommended. Must be greater or equal to 6.
-* ```columns``` - (int) a desired number of columns of a maze. Values below 20 are not recommended. Must be greater or equal to 6.
+* ```rows``` - (int) a desired number of rows of a maze. Must be greater or equal to 6, however values below 20 are not recommended.
+* ```columns``` - (int) a desired number of columns of a maze. Must be greater or equal to 6, however values below 20 are not recommended.
 * ```display_maze``` - (bool) display the maze after generation process. Default = True.
 * ```save_data``` - (bool) save all necessary data about the generated maze. Default = True.  
 <br>   
