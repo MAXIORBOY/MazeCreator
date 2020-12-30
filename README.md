@@ -29,8 +29,8 @@
 
 ## Implementation:
 ```MazeGenerator.__init__(self, rows, columns, display_maze=True, save_data=True)```
-* ```rows``` - (int) a desired number of rows of a maze. Must be (...)
-* ```columns``` - (int) a desired number of columns of a maze. Must be (...)
+* ```rows``` - (int) a desired number of rows of a maze. Values below 20 are not recommended. Must be greater or equal to 6.
+* ```columns``` - (int) a desired number of columns of a maze. Values below 20 are not recommended. Must be greater or equal to 6.
 * ```display_maze``` - (bool) display the maze after generation process. Default = True.
 * ```save_data``` - (bool) save all necessary data about the generated maze. Default = True.
 
@@ -44,7 +44,7 @@ Tests were based on 10 attempts.
 * 50 x 50 - 41 seconds
 * 60 x 60 - 2 minutes 29 seconds
 * 70 x 70 - 5 minutes 13 seconds
-* 80 x 80 - 
+* 80 x 80 - 10 minutes 36 seconds
 
 ## Launch:
 * To generate a new maze use the ```MazeCreator``` class and launch the ```generate_maze``` method.
