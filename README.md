@@ -14,8 +14,8 @@
 5. Connect disjointed paths. Class ```PathConnector``` is responsible for this.  
 6. Make sure that the solution path is the optimal path from start to finish. Class ```SolutionPathOptimalMaker``` is responsible for this.  
 7. Remove isolated paths. Class ```IsolatedPathsRemover``` is responsible for this.   
-8*. Display generated maze. Class ```GridDisplay``` is responsible for this.  
-9*. Save all data of the generated maze. Class ```SaveData``` is responsible for this.  
+8. (Optional) Display generated maze. Class ```GridDisplay``` is responsible for this.  
+9. (Optional) Save all data of the generated maze. Class ```SaveData``` is responsible for this.  
 
 ## Implementation:
 ```MazeGenerator.__init__(self, rows, columns, display_maze=True, save_data=True)```
