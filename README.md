@@ -12,6 +12,10 @@
 ## Implementation:
 (...)
 
+## Expected time to generate:
+* 50 x 50 - 41 seconds
+* 60 x 60 -
+
 ## Launch:
 * To generate a new maze use the ```MazeCreator``` class and launch the ```generate_maze``` method.
 * To load data of a previously generated maze use the ```MazeLoader``` class and launch the ```load_grid_from_csv``` or the ```load_data_from_pickle_file``` method.
