@@ -10,11 +10,19 @@
 (...)
 
 ## Implementation:
-(...)
+```MazeGenerator.__init__(self, rows, columns, display_maze=True, save_data=True)```
+* ```rows``` - (int) a desired number of rows of a maze. Must be (...)
+* ```columns``` - (int) a desired number of columns of a maze. Must be (...)
+* ```display_maze``` - (bool) display the maze after generation process. Default = True.
+* ```save_data``` - (bool) save all necessary data about the generated maze. Default = True.
+
+```MazeLoader.__init__(self, filename, display_maze=True)```
+* ```filename``` - (str) full name of a file which contains data about a generated maze. Currently the formats ```.csv``` and ```.pickle``` are supported. ```.csv``` save files stores only the data about a grid. ```.pickle``` save files stores all data.
+* ```display_maze``` - (bool) display the maze after loading data. Default = True.
 
 ## Expected time to generate:
 * 50 x 50 - 41 seconds
-* 60 x 60 -
+* 60 x 60 - 2 minutes 29 seconds
 
 ## Launch:
 * To generate a new maze use the ```MazeCreator``` class and launch the ```generate_maze``` method.
