@@ -17,7 +17,7 @@
 * ```save_data``` - (bool) save all necessary data about the generated maze. Default = True.
 
 ```MazeLoader.__init__(self, filename, display_maze=True)```
-* ```filename``` - (str) full name of a file which contains data about a generated maze. Currently the formats ```.csv``` and ```.pickle``` are supported. ```.csv``` save files stores only the data about a grid. ```.pickle``` save files stores all data.
+* ```filename``` - (str) full name of a file which contains data about a generated maze. Currently the formats ```.csv``` and ```.pickle``` are supported. ```csv``` save files stores only the data about a grid. ```pickle``` save files stores all data.
 * ```display_maze``` - (bool) display the maze after loading data. Default = True.
 
 ## Expected time to generate:
