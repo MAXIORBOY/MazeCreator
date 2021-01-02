@@ -1,4 +1,4 @@
-# MazeCreator is a program created to automatically generate solvable mazes. The only required input from a user is a size (number of rows and columns) of a maze.
+# Maze Creator is a program created to automatically generate solvable mazes. The only required input from a user is a size (number of rows and columns) of a maze.
 
 ## Menu:
 * [Rules](#rules)
