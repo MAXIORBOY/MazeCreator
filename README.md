@@ -17,7 +17,7 @@
 4. You cannot move diagonally.
 
 ## Algorithm:
-1. Create a grid filled with paths inside of the grid and with obstacles on the grid's borders. Size of the grid is provided by the user. ```CreateGrid``` is responsible for this.  
+1. Create a grid filled with paths inside of the grid and with obstacles on the grid's borders. Size of the grid is provided by the user. ```GridCreator``` is responsible for this.  
 2. Generate an entry and exit point on borders of the grid. Class ```EntryExitGenerator``` is responsible for this.   
 3. Create a solution path, a path which connects the entry and exit point. Class ```SolutionPathCreator``` is responsible for this.  
 4. Add internal walls into the grid. Class ```InternalWallsCreator``` is responsible for this.  
